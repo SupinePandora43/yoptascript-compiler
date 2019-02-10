@@ -1,0 +1,1 @@
+node "C:\Games\YoptaScriptCompiler\ysc.js" %*
