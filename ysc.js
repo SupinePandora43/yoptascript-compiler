@@ -3,7 +3,6 @@ var file=``
 var filename=``
 for (let i = 2; i < process.argv.length; i++) { 
     var s = process.argv[i]
-    console.log(s);
     if (s != "ysc.bat" && !s.endsWith("node.exe" || "ysc.js")) { 
         file = fs.readFileSync(s, "utf8")
         filename = s
